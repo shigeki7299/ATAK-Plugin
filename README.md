@@ -14,6 +14,7 @@ ATAKの認証でうまく動作しない場合は、本説明の最後に対応�
 　・Navigation 　　　 カーナビ<br>
   ・TargetingCamera　　カメラと撮影した目標座標を取得<br>
   ・TacticalSuite      活動支援機能集（音声認識、生体情報、非GPS位置情報測位）
+  ・Monochrome　夜間想定したモノクロ表示を実現するアプリ
 2.作戦支援
 　・Fire Tool         火力誘導アプリ<br><br>
 3.情報用　Plugin<br>
