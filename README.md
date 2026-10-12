@@ -9,23 +9,26 @@ ATAKの認証でうまく動作しない場合は、本説明の最後に対応�
 <br>
 
 <h2> ATAK Plugin</h2>
-1.行動用 plugin　<br>
+1.活動支援 plugin　<br>
 　・Compass2　　　　　ランドナビゲーションツール　<br>
 　・Navigation 　　　 カーナビ<br>
+  ・TargetingCamera　　カメラと撮影した目標座標を取得<br>
+  ・TacticalSuite      活動支援機能集（音声認識、生体情報、非GPS位置情報測位）
+2.作戦支援
 　・Fire Tool         火力誘導アプリ<br><br>
-2.情報用　Plugin<br>
+3.情報用　Plugin<br>
 　・WindsAlog　　　　 気象データ取得<br><br>
-3.通信用Plugin<br>
+4.通信用Plugin<br>
 　・RFSimulator       電波伝搬解析用<br>
 　・PushToTalk2　　　 サーバレスでトランシーバアプリ（多所多系）<br>
 　・MANET Gateway　　 ネットワークの監視及びAearwareの自動構成、ネットワーク自動切換え<br><br>
- 4.支援ツール　<br>
+5.支援ツール　<br>
 　・TAK_BEACON        ビーコン装置<br><br>
  5.試験用ATAK        ATAK Civあるいは、このATAKを利用してください。<br> 
 <br>
 <h2> ATAK Plugin</h2>
-<h3>行動用プラグイン</h3><br>
-### <b>ランナビツール：Compass2</b><br>
+<h3>活動支援プラグイン</h3><br>
+<h4><b>ランナビツール：Compass2</b><br></h4>
   - ランドナビゲーション用のコンパス<br>
   - 位置情報と時刻に応じ変化する<b>真北（TN）</b>と磁北（MN）に対応<br>
   - 表示のタップで、°→mil→radへ変更、AGL,MGL切り替え表示<br>
@@ -33,7 +36,7 @@ ATAKの認証でうまく動作しない場合は、本説明の最後に対応�
  <img width="912" height="432" alt="screen" src="https://github.com/user-attachments/assets/6c33b012-edb7-4d05-9b32-5d09add607e6" />
 <br>
 <br>
-### <b>ルート再計算　Relese 20260927</b><br>
+<h4><b>Navigation　Relese 20260927</b><br></h4>
  - 標準機能のルート（車両・徒歩）で、ルートを設定します。
  - ルートを再計算を行い、普通の車両ナビと同じように、2026年の日本のデータを利用して道路沿いに経路を検索します。<br>
  - 日本語でナビゲーションを行います。<br>
@@ -42,7 +45,7 @@ ATAKの認証でうまく動作しない場合は、本説明の最後に対応�
  - HELPに、道路ネットワークデータの保存先を記載しています。逐次追加することが可能です。<br>
    <img width="2280" height="1080" alt="Screenshot_20260927_003321" src="https://github.com/user-attachments/assets/8513dcb2-4388-4e22-9d4a-049baf78485e" />
 <br>
-### <b>活動支援ツール：Tactical suite（開発中）</b><br>
+<h4><b>活動支援ツール：Tactical suite（開発中）</b><br></h4>
  - PDR測位、スマホセンサーから屋内の位置情報をAIで推定<br>
 <br>
  音声認識によるメニュー、メッセージ入力機能（音声認識AI）<br>
