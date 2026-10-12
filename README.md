@@ -66,6 +66,11 @@ ATAKの認証でうまく動作しない場合は、本説明の最後に対応�
 <img width="2280" height="1080" alt="Screenshot_20260726_010233" src="https://github.com/user-attachments/assets/25cf9d6a-483d-4f46-887d-a90b56f00824" />
 <br><br>
 ## 情報用プラグイン<br>
+### <b>ターゲティングカメラ：ServeyCamera　Relese20261012 </b><br>
+ - カメラで補足した目標とATAKの標高データから目標座標を推定<br>
+ - レーザー・レンジ・ファインの値を入力することで精度向上が可能<br>
+<img width="2280" height="1080" alt="image" src="https://github.com/user-attachments/assets/4ab61533-c70d-41a9-8fc2-5279b9253813" />
+<br><br>
 ### <b>気象データ取得アプリ：WindsAloft</b><br>
  - Open-Meteroから<b>気象情報を取得</b>できるプラグインを開発しました。<br>
  - Importを選択し、特定のアイコンを選択すると座標から適切なデータを取得します<br>
