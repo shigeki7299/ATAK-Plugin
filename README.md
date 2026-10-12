@@ -69,7 +69,9 @@ ATAKの認証でうまく動作しない場合は、本説明の最後に対応�
 ### <b>ターゲティングカメラ：ServeyCamera　Relese20261012 </b><br>
  - カメラで補足した目標とATAKの標高データから目標座標を推定<br>
  - レーザー・レンジ・ファインの値を入力することで精度向上が可能<br>
-<img width="2280" height="1080" alt="image" src="https://github.com/user-attachments/assets/4ab61533-c70d-41a9-8fc2-5279b9253813" />
+ <img width="2280" height="1080" alt="image" src="https://github.com/user-attachments/assets/0bc72a93-b014-4b21-961b-76725fb4d57c" />
+<img width="2280" height="1080" alt="image" src="https://github.com/user-attachments/assets/1a1a0ab6-86d7-44be-9493-67686f0d9cf5" />
+
 <br><br>
 ### <b>気象データ取得アプリ：WindsAloft</b><br>
  - Open-Meteroから<b>気象情報を取得</b>できるプラグインを開発しました。<br>
