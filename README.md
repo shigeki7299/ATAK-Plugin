@@ -54,8 +54,8 @@
 - 表示をタップして角度表記を度（°）、mil、radに切り替え
 - AGL／MGLの高度表示切り替え
 - 基準標高を手動設定した場合、気圧センサーを利用した高度表示をサポート
+<img src="https://github.com/user-attachments/assets/6c33b012-edb7-4d05-9b32-5d09add607e6" alt="Compass2の画面" width="25%">
 
-![Compass2の画面](https://github.com/user-attachments/assets/6c33b012-edb7-4d05-9b32-5d09add607e6)
 
 ### Navigation — オフライン利用を想定したナビゲーション
 
@@ -67,8 +67,7 @@
 - 現在地が出発地点から離れている場合、出発地点までの案内後に目的地へ誘導
 - ルート一覧に到着予想時刻を表示
 - 道路ネットワークデータの保存先はアプリ内HELPを参照。データの追加に対応
-
-![Navigationの画面](https://github.com/user-attachments/assets/8513dcb2-4388-4e22-9d4a-049baf78485e)
+<img src="https://github.com/user-attachments/assets/8513dcb2-4388-4e22-9d4a-049baf78485e" alt="Navigationの画面" width="25%">
 
 ### Tactical Suite — 活動支援機能集
 
