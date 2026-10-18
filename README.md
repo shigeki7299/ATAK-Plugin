@@ -84,7 +84,7 @@
 ### Monochrome — モノクロ表示
 
 夜間の端末利用を想定し、画面表示をモノクロ化するためのアプリです。利用端末、Androidの仕様、他アプリへの適用範囲などに制約があるため、実際の利用環境で確認してください。<br>
-<img src=""https://github.com/user-attachments/assets/77127161-907c-423c-bab2-e5e64bb3ac85" alt="Monochrome画面" width="40%"><br>
+<img src="https://github.com/user-attachments/assets/77127161-907c-423c-bab2-e5e64bb3ac85" alt="Monochrome画面" width="40%"><br>
 
 ---
 
