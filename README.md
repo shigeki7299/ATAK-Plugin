@@ -90,7 +90,7 @@
 
 ## カメラ・位置情報プラグイン
 
-### Targeting Camera / SurveyCamera — カメラによる地点座標推定
+### Targeting Camera — カメラによる地点座標推定
 
 **リリース情報：2026-10-12**
 
@@ -154,7 +154,7 @@
 <br>
 <img src="https://github.com/user-attachments/assets/c1c7d20b-6fa3-4ae0-abf0-7d7a4e048e6e" alt="MANETの画面" width="40%">
 
-### RF Design Studio / RFSimulator — 電波伝搬解析
+### RF Design Studio — 電波伝搬解析
 
 - 電界強度の分布表示
 - 通信可能範囲の解析
