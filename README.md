@@ -97,7 +97,8 @@
 - レーザー距離計などで測定した距離を入力し、推定精度の改善を支援
 
 推定結果はカメラ姿勢、端末の位置・向き、標高データ、距離測定誤差などの影響を受けます。測量機器の代替や、精度保証された測位手段として扱わないでください。
-<img src="https://github.com/user-attachments/assets/0bc72a93-b014-4b21-961b-76725fb4d57c" alt="SurveyCameraの画面1" width="40%">
+<br>
+<img src="https://github.com/user-attachments/assets/0bc72a93-b014-4b21-961b-76725fb4d57c" alt="SurveyCameraの画面1" width="40%"><br>
 
 <img src="https://github.com/user-attachments/assets/1a1a0ab6-86d7-44be-9493-67686f0d9cf5" alt="SurveyCameraの画面2" width="40%">
 ---
@@ -115,13 +116,13 @@
 - CAS 9-Line形式の要求・受領情報の取り扱い
 
 計算機能の一部は開発・検証中です。表示結果や計算値を実際の任務判断に利用する前に、適用する教範・規格・入力条件との整合性を専門家が検証する必要があります。<br>
-<img src="https://github.com/user-attachments/assets/4bfe29de-527b-42ff-911c-873fe7ca6cee" alt="FO Toolの画面1" width="40%">
+<img src="https://github.com/user-attachments/assets/4bfe29de-527b-42ff-911c-873fe7ca6cee" alt="FO Toolの画面1" width="40%"><br>
 
-<img src="https://github.com/user-attachments/assets/5258e98a-2dc7-4f67-8a49-34e9871a96d4" alt="FO Toolの画面2" width="40%">
+<img src="https://github.com/user-attachments/assets/5258e98a-2dc7-4f67-8a49-34e9871a96d4" alt="FO Toolの画面2" width="40%"><br>
 
-<img src="https://github.com/user-attachments/assets/76291eb5-0c12-453a-9375-9d179903dd82" alt="FO Toolの画面3" width="40%">
+<img src="https://github.com/user-attachments/assets/76291eb5-0c12-453a-9375-9d179903dd82" alt="FO Toolの画面3" width="40%"><br>
 
-<img src="https://github.com/user-attachments/assets/25cf9d6a-483d-4f46-887d-a90b56f00824" alt="FO Toolの画面4" width="40%">
+<img src="https://github.com/user-attachments/assets/25cf9d6a-483d-4f46-887d-a90b56f00824" alt="FO Toolの画面4" width="40%"><br>
 
 
 ---
@@ -160,11 +161,12 @@
 - 評定図などの可視化
 
 結果は地形データ、アンテナ条件、送信出力、伝搬モデルなどの入力条件に依存します。設計・評価時には前提条件を確認してください。
-<img src="https://github.com/user-attachments/assets/13c5e9eb-aca9-458d-9a4f-5412f8559fb3" alt="RF Design Studio：全域解析" width="40%">
+<br>
+<img src="https://github.com/user-attachments/assets/13c5e9eb-aca9-458d-9a4f-5412f8559fb3" alt="RF Design Studio：全域解析" width="40%"><br>
 
-<img src="https://github.com/user-attachments/assets/33b4e214-f9a1-4605-9f2a-966d9e34d06b" alt="RF Design Studio：対向通信" width="40%">
+<img src="https://github.com/user-attachments/assets/33b4e214-f9a1-4605-9f2a-966d9e34d06b" alt="RF Design Studio：対向通信" width="40%"><br>
 
-<img src="https://github.com/user-attachments/assets/b378b7e5-1cb6-4296-a5b9-ae7f360ea714" alt="RF Design Studio：電界図" width="40%">
+<img src="https://github.com/user-attachments/assets/b378b7e5-1cb6-4296-a5b9-ae7f360ea714" alt="RF Design Studio：電界図" width="40%"><br>
 
 ### PushToTalk2 — 複数通信系に対応するPTT
 
