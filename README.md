@@ -1,151 +1,242 @@
-<h1>ATAK_Plugin</h1><br>
-I develop and release plugins that run on ATAK. <br>
-ATAKで動作するプラグインを開発して公開しています。 <br>
+<div align="center">
 
-<h2>概要</h2><br>
-Galaxy Note、S21にてプロトタイプで作ったのもです。<br>
-ATAKの認証でうまく動作しない場合は、本説明の最後に対応するATAK 5.5.1があるので利用ください。<br>
-内容により公開していないプラグインがあります。必要な方は作者に連絡してください。<br><br>
-<br>
+# ATAK Plugin Portfolio
 
-<h2> ATAK Plugin</h2>
-1.活動支援 plugin　<br>
-　・Compass2　　　　　ランドナビゲーションツール　<br>
-　・Navigation 　　　 カーナビ<br>
-  ・TargetingCamera　　カメラと撮影した目標座標を取得<br>
-  ・TacticalSuite      活動支援機能集（音声認識、生体情報、非GPS位置情報測位）
-  ・Monochrome　夜間想定したモノクロ表示を実現するアプリ
-2.作戦支援
-　・Fire Tool         火力誘導アプリ<br><br>
-3.情報用　Plugin<br>
-　・WindsAlog　　　　 気象データ取得<br><br>
-4.通信用Plugin<br>
-　・RFSimulator       電波伝搬解析用<br>
-　・PushToTalk2　　　 サーバレスでトランシーバアプリ（多所多系）<br>
-　・MANET Gateway　　 ネットワークの監視及びAearwareの自動構成、ネットワーク自動切換え<br><br>
-5.支援ツール　<br>
-　・TAK_BEACON        ビーコン装置<br><br>
- 5.試験用ATAK        ATAK Civあるいは、このATAKを利用してください。<br> 
-<br>
-<h2> ATAK Plugin</h2>
-<h3>活動支援プラグイン</h3><br>
-<h4><b>ランナビツール：Compass2</b><br></h4>
-  - ランドナビゲーション用のコンパス<br>
-  - 位置情報と時刻に応じ変化する<b>真北（TN）</b>と磁北（MN）に対応<br>
-  - 表示のタップで、°→mil→radへ変更、AGL,MGL切り替え表示<br>
-  - 基準標高を手動で設定した場合は、気圧計で対地高度をシアンで表示します。<br>
- <img width="912" height="432" alt="screen" src="https://github.com/user-attachments/assets/6c33b012-edb7-4d05-9b32-5d09add607e6" />
-<br>
-<br>
-<h4><b>Navigation　Relese 20260927</b><br></h4>
- - 標準機能のルート（車両・徒歩）で、ルートを設定します。
- - ルートを再計算を行い、普通の車両ナビと同じように、2026年の日本のデータを利用して道路沿いに経路を検索します。<br>
- - 日本語でナビゲーションを行います。<br>
- - スタート地点から離れている場合は、スタート地点まで経路を検索して、まず、スタート地点まで案内してゴールまで誘導します。<br>
- - リストには到着予想時間を表示します。
- - HELPに、道路ネットワークデータの保存先を記載しています。逐次追加することが可能です。<br>
-   <img width="2280" height="1080" alt="Screenshot_20260927_003321" src="https://github.com/user-attachments/assets/8513dcb2-4388-4e22-9d4a-049baf78485e" />
-<br>
-<h4><b>活動支援ツール：Tactical suite（開発中）</b><br></h4>
- - PDR測位、スマホセンサーから屋内の位置情報をAIで推定<br>
-<br>
- 音声認識によるメニュー、メッセージ入力機能（音声認識AI）<br>
- チャット受信時に自動読み上げ<br>
-<br>
- - 生体情報の把握、警告機能及び送信<br>
- - 生体情報はCallsignの横に表示を行いますので、隊員間で状態把握が可能です。<br>
- - 胸部にEUDを装着した状態から姿勢を検出して状態を把握します。（IMU,気圧センサ等を使います）<br>
-<br>
-<br>
-##  火力制御用プラグイン<br><br>
-### <b>火力誘導アプリ：FO Tool　Relese 20260730</b><br>
- - 米軍教範、NATO標準化文書（公開文書）に基づく、目標設定、CAS要求、火力要求、任務設定、火砲計算（計算式調査中）、兵器リスト<br>
- - 目標解析において兵器諸元により、誤差、危険地域などを解析して表示できます。<br>
- - 目標管理や処置を行い、チームで共有が可能です<br>
- - 火力統制のためのO/L表示と「任務」を作成して射撃班に火力統制が可能です。
- - CAS９LineをNATO標準文書に準拠して要求と受領が可能です。
-<img width="2280" height="1080" alt="Screenshot_20260726_010433" src="https://github.com/user-attachments/assets/4bfe29de-527b-42ff-911c-873fe7ca6cee" />
-<img width="2280" height="1080" alt="Screenshot_20260726_010404" src="https://github.com/user-attachments/assets/5258e98a-2dc7-4f67-8a49-34e9871a96d4" />
-<img width="2280" height="1080" alt="Screenshot_20260726_010321" src="https://github.com/user-attachments/assets/76291eb5-0c12-453a-9375-9d179903dd82" />
-<img width="2280" height="1080" alt="Screenshot_20260726_010233" src="https://github.com/user-attachments/assets/25cf9d6a-483d-4f46-887d-a90b56f00824" />
-<br><br>
-## 情報用プラグイン<br>
-### <b>ターゲティングカメラ：ServeyCamera　Relese20261012 </b><br>
- - カメラで補足した目標とATAKの標高データから目標座標を推定<br>
- - レーザー・レンジ・ファインの値を入力することで精度向上が可能<br>
- <img width="2280" height="1080" alt="image" src="https://github.com/user-attachments/assets/0bc72a93-b014-4b21-961b-76725fb4d57c" />
-<img width="2280" height="1080" alt="image" src="https://github.com/user-attachments/assets/1a1a0ab6-86d7-44be-9493-67686f0d9cf5" />
+### ATAK-CIV向けプラグイン・現場支援ツールの開発
 
-<br><br>
-### <b>気象データ取得アプリ：WindsAloft</b><br>
- - Open-Meteroから<b>気象情報を取得</b>できるプラグインを開発しました。<br>
- - Importを選択し、特定のアイコンを選択すると座標から適切なデータを取得します<br>
- - 気象情報は、WindsAloftなどで公開されている情報の元データから取得します。予測情報を表示することが可能です。<br>
- - 対地高度ＡＧＬと絶対標高ＭＧＬを切り替えて利用が可能です。<br>
- - 全世界の気象情報を取得できます。
-<img width="1824" height="864" alt="screen" src="https://github.com/user-attachments/assets/0dc9b172-c3f7-4612-956c-bfd569840e77" />
-<br><br>
-## 通信関連プラグイン<br>
-### <b>MANET</b><br>
- - MANETを構成するプラグインです<br>
- - 現在対応無線 WIFI Awareに対応しており、AP不要<br>
- - すれ違い通信や、100m県内の小規模ネットワーク構成に適します<br>
- - 周囲のネットワークアダプタを検索してプラグイン相互で設定を行い接続を行います。<br>
- - グループ設定によりネットワークを分離することが可能です。<br>
- - 将来的にHALWなどの無線機にも対応できる設計のため必要に応じネットワークアダプターを追加できます。<br>
- - パスワードなどを用いて接続を制約することが可能です。<br>
- - セキュリティは、軍用暗号などを用いることが可能です詳細は問い合わせください。<br>
- - 画面はテスト用の画面ですので、修正する可能性があります。<br>
-<img width="300" height="260" alt="ScreenShot2" src="https://github.com/user-attachments/assets/c1c7d20b-6fa3-4ae0-abf0-7d7a4e048e6e" />
+地図・ナビゲーション・状況共有・通信・センサー連携を中心に、ATAKを拡張するプラグインと関連アプリケーションを開発しています。
 
-   <br><br>
+[プラグイン一覧](#プラグイン一覧) · [活動支援](#活動支援プラグイン) · [情報支援](#情報支援プラグイン) · [通信](#通信関連プラグイン) · [独立アプリ](#独立アプリケーション)
 
-### <b>電波伝搬解析：RF Design studio</b><br> 
- - 電波解析を行うプラグインです。<br>
- - 電界図、全系通信解析、対向通信、評定図が可能です。<br>
- 
- <img width="912" height="432" alt="screen全系" src="https://github.com/user-attachments/assets/13c5e9eb-aca9-458d-9a4f-5412f8559fb3" />
-<img width="912" height="432" alt="screen対向" src="https://github.com/user-attachments/assets/33b4e214-f9a1-4605-9f2a-966d9e34d06b" />
-<img width="912" height="432" alt="screen電界図" src="https://github.com/user-attachments/assets/b378b7e5-1cb6-4296-a5b9-ae7f360ea714" />
-<br><br>
+</div>
 
+---
 
-<br>
+## プロジェクトについて
 
+このリポジトリでは、ATAK上で動作するプラグインや、ATAKと連携するAndroidアプリケーションを紹介しています。スマートフォン上での利用を想定し、現場で必要になる地図表示、ナビゲーション、情報取得、通信などの機能を試作・開発しています。
 
+- **対応環境:** ATAK-CIVを中心に開発・検証
+- **試作端末:** Galaxy Note、Galaxy S21など
+- **開発状況:** 機能ごとに開発段階・公開状況が異なります
+- **公開方針:** 一部のプラグインは非公開です。詳細は作者までお問い合わせください
 
-<HR>
+> **ご利用前に**
+> 本リポジトリの掲載内容は開発・試験中の機能を含みます。すべての機能について、あらゆる端末・ATAKバージョンでの動作を保証するものではありません。導入前に対象バージョン、依存関係、利用条件をご確認ください。実運用で使用する場合は、利用環境で十分な検証を行ってください。
 
-======独立アプリケーション=====<br>
-### <b>MANET Gateway</b><br>
- - localhostのデータを外部ネットワークへ中継を行う<br>
- - ATAK関連及びPushToTalkの情報共有へ対応<br>
- <img width="345" height="729" alt="Screenshot_20260720_024952" src="https://github.com/user-attachments/assets/e31e1554-895a-4124-9499-cb0ed43dd5d0" />
+## プラグイン一覧
 
- <br>
-### <b>QGroundContllre</b><br>
- - 無人機の操縦、飛行計画の転送、３D確認<br>
- - 無人機位置の共有<br>
- - ATAK連携が可能なGCS<br> 
- <br>
+| 分類 | プラグイン／アプリ | 主な機能 | 状況 |
+|---|---|---|---|
+| 活動支援 | **Compass2** | ランドナビゲーション、真北・磁北、高度表示 | 試作・公開情報あり |
+| 活動支援 | **Navigation** | 車両・徒歩ルート、日本語案内、到着予想時刻 | リリース情報あり |
+| 活動支援 | **Tactical Suite** | PDR、音声入力、生体情報などの支援機能 | 開発中 |
+| 活動支援 | **Monochrome** | 夜間利用を想定したモノクロ表示 | 試作 |
+| カメラ・位置 | **Targeting Camera / SurveyCamera** | カメラ画像と地形情報を用いた地点座標の推定 | リリース情報あり |
+| 火力支援 | **FO Tool** | 目標・要求・任務情報の管理支援 | リリース情報あり |
+| 情報支援 | **WindsAloft** | 外部気象データの取得・表示 | 試作 |
+| 通信 | **MANET** | Wi-Fi Awareを利用した端末間ネットワーク構成の検証 | 試験中 |
+| 通信 | **RF Design Studio / RFSimulator** | 電波伝搬・通信範囲の解析 | 試作 |
+| 通信 | **PushToTalk2** | 複数通信系を扱うPTTアプリ | 試作 |
+| 支援ツール | **TAK_BEACON** | 端末の位置情報送信 | 試作 |
+| 独立アプリ | **MANET Gateway** | ローカルデータと外部ネットワーク間の中継 | 試作 |
+| 独立アプリ | **QGroundControl連携** | 無人機の地上管制・ATAK連携の検討 | 関連プロジェクト |
 
-### <b>TAK_BEACON</b><br>
- - 位置情報送信するのみアプリです。<br>
- - 安価な端末にインストールし運用しすることで、物品改修や装置の位置を収集できるためIoTデバイスとして利用に適します。<br>
- - ATAKにて物品管理（ヘリコプター、戦車、車両、火砲）の管理に鹵獲のリスクを抑えて利用できます。
-<img  width="345" height="729" alt="Screenshot_20260720_025358" src="https://github.com/user-attachments/assets/79cabaf5-62f3-46bf-b2fc-b7cff710c4af" />
+※名称・機能・公開状況は開発に伴って変更される場合があります。配布ファイルが公開されていない機能もあります。
 
- <br>
- 
-### <b>PushToTalk2</b><br>
- - 従来のPushToTalkと異なるアルゴリズムで構築してます。<br>
- - <b>最大１０つの系を登録して、同時に２系を取り扱いが可能です。（多所多系）</b><br>
- - 音声圧縮を従来PCMの1/6以下にしていますので長距離通信にも対応します。<br>
- - 音声デバイス制御を再構築し、骨伝導のボタンでPTT制御できます。<br>
-<img width="912" height="432" alt="screen" src="https://github.com/user-attachments/assets/830c98b2-c0ea-4f81-9463-e3b91910480c" />
-<img width="30%" height="30%" alt="screen設定" src="https://github.com/user-attachments/assets/aa5a9d18-acfb-4144-9678-2b06e57f151f"  />
+---
 
-<br> 
+## 活動支援プラグイン
 
-### <b>ATAK-5.5.1　試験用</b><br>
-　https://drive.google.com/file/d/1zqcIPbAIZJPkL2ov9_DKfRBCv0tna-pJ/view?usp=sharing<br>
+### Compass2 — ランドナビゲーション
+
+- 位置・時刻に応じた真北（TN）と磁北（MN）の表示に対応
+- 表示をタップして角度表記を度（°）、mil、radに切り替え
+- AGL／MGLの高度表示切り替え
+- 基準標高を手動設定した場合、気圧センサーを利用した高度表示をサポート
+
+![Compass2の画面](https://github.com/user-attachments/assets/6c33b012-edb7-4d05-9b32-5d09add607e6)
+
+### Navigation — オフライン利用を想定したナビゲーション
+
+**リリース情報：2026-09-27**
+
+- ATAKのルート機能を利用した車両・徒歩ルートの設定
+- 道路ネットワークデータを用いたルート検索・再計算
+- 日本語によるナビゲーション案内
+- 現在地が出発地点から離れている場合、出発地点までの案内後に目的地へ誘導
+- ルート一覧に到着予想時刻を表示
+- 道路ネットワークデータの保存先はアプリ内HELPを参照。データの追加に対応
+
+![Navigationの画面](https://github.com/user-attachments/assets/8513dcb2-4388-4e22-9d4a-049baf78485e)
+
+### Tactical Suite — 活動支援機能集
+
+**開発中**
+
+- スマートフォンのセンサー情報を用いたPDR（歩行者自律航法）の検討
+- 音声認識によるメニュー操作・メッセージ入力
+- チャット受信時の音声読み上げ
+- 生体情報の把握・警告・共有機能の検討
+- IMUや気圧センサーなどを用いた姿勢・状態推定の検討
+
+掲載機能には開発中のものが含まれ、対応センサーや精度は端末・実装によって異なります。
+
+### Monochrome — モノクロ表示
+
+夜間の端末利用を想定し、画面表示をモノクロ化するためのアプリです。利用端末、Androidの仕様、他アプリへの適用範囲などに制約があるため、実際の利用環境で確認してください。
+
+---
+
+## カメラ・位置情報プラグイン
+
+### Targeting Camera / SurveyCamera — カメラによる地点座標推定
+
+**リリース情報：2026-10-12**
+
+- カメラで捉えた対象とATAKの標高データを利用して地点座標を推定
+- レーザー距離計などで測定した距離を入力し、推定精度の改善を支援
+
+推定結果はカメラ姿勢、端末の位置・向き、標高データ、距離測定誤差などの影響を受けます。測量機器の代替や、精度保証された測位手段として扱わないでください。
+
+![SurveyCameraの画面1](https://github.com/user-attachments/assets/0bc72a93-b014-4b21-961b-76725fb4d57c)
+
+![SurveyCameraの画面2](https://github.com/user-attachments/assets/1a1a0ab6-86d7-44be-9493-67686f0d9cf5)
+
+---
+
+## 火力支援プラグイン
+
+### FO Tool — 火力関連情報の管理支援
+
+**リリース情報：2026-07-30**
+
+- 目標情報、要求、任務、兵器リストなどの管理支援
+- 兵器諸元に基づく誤差や危険区域の表示機能を開発
+- 目標情報や処置状況のチーム共有
+- 火力統制に関するオーバーレイ表示・任務情報の作成支援
+- CAS 9-Line形式の要求・受領情報の取り扱い
+
+計算機能の一部は開発・検証中です。表示結果や計算値を実際の任務判断に利用する前に、適用する教範・規格・入力条件との整合性を専門家が検証する必要があります。
+
+![FO Toolの画面1](https://github.com/user-attachments/assets/4bfe29de-527b-42ff-911c-873fe7ca6cee)
+
+![FO Toolの画面2](https://github.com/user-attachments/assets/5258e98a-2dc7-4f67-8a49-34e9871a96d4)
+
+![FO Toolの画面3](https://github.com/user-attachments/assets/76291eb5-0c12-453a-9375-9d179903dd82)
+
+![FO Toolの画面4](https://github.com/user-attachments/assets/25cf9d6a-483d-4f46-887d-a90b56f00824)
+
+---
+
+## 情報支援プラグイン
+
+### WindsAloft — 気象情報の取得
+
+- Open-Meteoなどの外部気象データを取得・表示
+- 地図上の地点を選択し、座標に応じたデータを参照
+- 予測情報の表示
+- AGL（対地高度）とMGL（平均海面等を基準とする高度表現）の切り替えに対応する表示機能
+
+気象データの利用可能範囲、時間分解能、標高の基準、ネットワーク接続条件はデータ提供元と実装に依存します。ネットワーク接続がない場合、外部データは取得できません。
+
+![WindsAloftの画面](https://github.com/user-attachments/assets/0dc9b172-c3f7-4612-956c-bfd569840e77)
+
+---
+
+## 通信関連プラグイン
+
+### MANET — Wi-Fi Awareによる端末間ネットワークの検証
+
+- Wi-Fi Aware対応端末を利用した、アクセスポイントに依存しない接続方式を検証
+- 周辺のネットワークアダプターを検出し、プラグイン間で接続設定を行う仕組み
+- グループ設定によるネットワーク分離を検討
+- 将来のネットワークアダプター追加を考慮した設計
+
+現状の画面は試験用で、変更される可能性があります。接続距離・同時接続数・端末互換性は環境に左右されます。暗号化方式やセキュリティ機能については、実装・設定・検証結果を確認したうえで利用してください。
+
+![MANETの画面](https://github.com/user-attachments/assets/c1c7d20b-6fa3-4ae0-abf0-7d7a4e048e6e)
+
+### RF Design Studio / RFSimulator — 電波伝搬解析
+
+- 電界強度の分布表示
+- 通信可能範囲の解析
+- 対向通信の解析
+- 評定図などの可視化
+
+結果は地形データ、アンテナ条件、送信出力、伝搬モデルなどの入力条件に依存します。設計・評価時には前提条件を確認してください。
+
+![RF Design Studio：全域解析](https://github.com/user-attachments/assets/13c5e9eb-aca9-458d-9a4f-5412f8559fb3)
+
+![RF Design Studio：対向通信](https://github.com/user-attachments/assets/33b4e214-f9a1-4605-9f2a-966d9e34d06b)
+
+![RF Design Studio：電界図](https://github.com/user-attachments/assets/b378b7e5-1cb6-4296-a5b9-ae7f360ea714)
+
+### PushToTalk2 — 複数通信系に対応するPTT
+
+- 最大10系統を登録し、同時に2系統を扱う構成
+- 音声圧縮を利用し、PCM方式と比べたデータ量の削減を目指す
+- 音声デバイス制御を実装し、対応するボタンによるPTT操作を検討
+
+通信品質、遅延、音質、圧縮率、端末互換性はネットワークと機器構成に依存します。実運用前に測定・確認してください。
+
+![PushToTalk2の画面](https://github.com/user-attachments/assets/830c98b2-c0ea-4f81-9463-e3b91910480c)
+
+![PushToTalk2の設定画面](https://github.com/user-attachments/assets/aa5a9d18-acfb-4144-9678-2b06e57f151f)
+
+---
+
+## 独立アプリケーション
+
+### MANET Gateway
+
+ローカル環境のデータを外部ネットワークへ中継するための関連アプリです。ATAK関連データやPushToTalkの情報共有との連携を検討しています。
+
+![MANET Gatewayの画面](https://github.com/user-attachments/assets/e31e1554-895a-4124-9499-cb0ed43dd5d0)
+
+### QGroundControl連携
+
+QGroundControlを利用した無人機の地上管制、飛行計画、3D表示、位置共有などとATAKとの連携を扱う関連領域です。対応機器・機能は個別の構成に依存します。
+
+### TAK_BEACON
+
+- 端末の位置情報を送信するシンプルなアプリ
+- 端末をIoTデバイスとして利用し、物品・装置などの位置把握を支援
+
+実際に管理できる対象や位置精度は、端末・設置場所・測位方式・通信条件に依存します。
+
+![TAK_BEACONの画面](https://github.com/user-attachments/assets/79cabaf5-62f3-46bf-b2fc-b7cff710c4af)
+
+---
+
+## 試験用ATAK
+
+ATAK-CIVのバージョンや認証条件によって、プラグインが正常に動作しない場合があります。試験用APKを利用する場合は、配布元・バージョン・ファイルの真正性・利用条件を確認してください。
+
+- **試験用ATAK 5.5.1：** [配布ファイル（Google Drive）](https://drive.google.com/file/d/1zqcIPbAIZJPkL2ov9_DKfRBCv0tna-pJ/view?usp=sharing)
+
+第三者配布のAPKをインストールする際は、組織の端末管理ポリシーに従い、出所と整合性を確認してください。通常は、利用条件に合った公式のATAK-CIV配布元を優先してください。
+
+---
+
+## 導入・動作確認について
+
+プラグインの導入前に、次の点をご確認ください。
+
+1. 対象のATAK-CIVバージョンとAndroidバージョン
+2. プラグインの配布形態、必要な権限、依存関係
+3. 外部データを使う機能のネットワーク要件
+4. 端末固有のセンサー・無線機能への対応状況
+5. 試験環境での動作確認と、データの取り扱い条件
+
+現時点ですべてのプラグインに共通するインストール手順や互換性一覧が整備されているわけではありません。個別の導入方法については、対象プラグイン名と利用環境を添えてお問い合わせください。
+
+## お問い合わせ・公開状況
+
+本リポジトリで公開している情報は、開発中の機能や試作を含みます。未公開のプラグインについては、必要に応じて作者へお問い合わせください。
+
+- GitHub: [shigeki7299/ATAK_Plugin](https://github.com/shigeki7299/ATAK_Plugin)
+
+## 免責事項
+
+本リポジトリのソフトウェア・説明・画面は、開発および評価を目的とするものです。利用者は、適用される法令、組織の規則、ソフトウェアのライセンス、各データ提供元の利用条件を遵守してください。機能・精度・互換性・可用性について、明示または黙示の保証はありません。重要な判断に使用する場合は、独立した検証と適切な専門家の確認を行ってください。
