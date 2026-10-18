@@ -1,4 +1,4 @@
-<h1>ATAK_PluginM</h1><br>
+<h1>ATAK_Plugin</h1><br>
 I develop and release plugins that run on ATAK. <br>
 ATAKで動作するプラグインを開発して公開しています。 <br>
 
