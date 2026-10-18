@@ -1,4 +1,3 @@
-<img width="2280" height="1080" alt="screem_shot2" src="https://github.com/user-attachments/assets/d23693d9-dc1b-4bf7-a472-fb5f3ff67788" />
 <div align="center">
 
 # ATAK Plugin Portfolio
