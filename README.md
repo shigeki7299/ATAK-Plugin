@@ -178,7 +178,6 @@
 
 通信品質、遅延、音質、圧縮率、端末互換性はネットワークと機器構成に依存します。実運用前に測定・確認してください。
 <img src="https://github.com/user-attachments/assets/830c98b2-c0ea-4f81-9463-e3b91910480c" alt="PushToTalk2の画面" width="35%">
-
 <img src="https://github.com/user-attachments/assets/aa5a9d18-acfb-4144-9678-2b06e57f151f" alt="PushToTalk2の設定画面" width="35%">
 
 ---
@@ -193,10 +192,9 @@ LINEやSignalのような操作感を目指したチャットアプリです。
 - インターネット上の外部サービスに依存しない閉域ネットワークでの運用を検討可能
 
 vChatの利用にはサーバー環境が必要です。実際に利用できる機能、対応ファイル形式、既読情報の扱い、同時接続数は、サーバー構成とアプリの実装・バージョンに依存します。
-<img width="30%" alt="screem_shot2" src="https://github.com/user-attachments/assets/aa2dc874-3155-491d-9edf-4cc92ddbb32e" />
 
-<img width="30%" alt="screem_shot" src="https://github.com/user-attachments/assets/2bb7fd84-b1c5-40da-a479-6c0bc28a40d3" />
-
+<img src="https://github.com/user-attachments/assets/aa2dc874-3155-491d-9edf-4cc92ddbb32e" alt="PushToTalk2の画面" width="35%">
+<img src="https://github.com/user-attachments/assets/2bb7fd84-b1c5-40da-a479-6c0bc28a40d3" alt="PushToTalk2の設定画面" width="35%">
 ---
 
 ## 独立アプリケーション
