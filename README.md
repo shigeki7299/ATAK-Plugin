@@ -114,7 +114,7 @@
 - 火力統制に関するオーバーレイ表示・任務情報の作成支援
 - CAS 9-Line形式の要求・受領情報の取り扱い
 
-計算機能の一部は開発・検証中です。表示結果や計算値を実際の任務判断に利用する前に、適用する教範・規格・入力条件との整合性を専門家が検証する必要があります。
+計算機能の一部は開発・検証中です。表示結果や計算値を実際の任務判断に利用する前に、適用する教範・規格・入力条件との整合性を専門家が検証する必要があります。<br>
 <img src="https://github.com/user-attachments/assets/4bfe29de-527b-42ff-911c-873fe7ca6cee" alt="FO Toolの画面1" width="40%">
 
 <img src="https://github.com/user-attachments/assets/5258e98a-2dc7-4f67-8a49-34e9871a96d4" alt="FO Toolの画面2" width="40%">
