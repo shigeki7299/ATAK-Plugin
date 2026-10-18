@@ -173,8 +173,8 @@
 - 音声デバイス制御を実装し、対応するボタンによるPTT操作を検討
 
 通信品質、遅延、音質、圧縮率、端末互換性はネットワークと機器構成に依存します。実運用前に測定・確認してください。
-<img src="https://github.com/user-attachments/assets/830c98b2-c0ea-4f81-9463-e3b91910480c" alt="PushToTalk2の画面" width="35%">
-<img src="https://github.com/user-attachments/assets/aa5a9d18-acfb-4144-9678-2b06e57f151f" alt="PushToTalk2の設定画面" width="35%">
+<img src="https://github.com/user-attachments/assets/830c98b2-c0ea-4f81-9463-e3b91910480c" alt="PushToTalk2の画面" width="35%"><br>
+<img src="https://github.com/user-attachments/assets/aa5a9d18-acfb-4144-9678-2b06e57f151f" alt="PushToTalk2の設定画面" higeht="35%">
 
 ---
 ### vChat — テキスト・画像に対応したチャットアプリ
