@@ -99,9 +99,7 @@
 推定結果はカメラ姿勢、端末の位置・向き、標高データ、距離測定誤差などの影響を受けます。測量機器の代替や、精度保証された測位手段として扱わないでください。
 <br>
 <img src="https://github.com/user-attachments/assets/7c8d2503-549c-469c-846a-0e5722c1ec3a" alt="SurveyCameraの画面１" width="40%">
-
-
-<img src="https://github.com/user-attachments/assets/1a1a0ab6-86d7-44be-9493-67686f0d9cf5" alt="SurveyCameraの画面2" width="40%"><br＞
+<img src="https://github.com/user-attachments/assets/1a1a0ab6-86d7-44be-9493-67686f0d9cf5" alt="SurveyCameraの画面2" width="40%"><br>
 ---
 
 ## 火力支援プラグイン
