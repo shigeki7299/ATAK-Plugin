@@ -196,7 +196,10 @@ LINEやSignalのような操作感を目指したチャットアプリです。
 - インターネット上の外部サービスに依存しない閉域ネットワークでの運用を検討可能
 
 vChatの利用にはサーバー環境が必要です。実際に利用できる機能、対応ファイル形式、既読情報の扱い、同時接続数は、サーバー構成とアプリの実装・バージョンに依存します。
-
+<img width="2280" height="1080" alt="image" src="https://github.com/user-attachments/assets/3f874256-6cfc-4c43-baf0-3384ba615a21" />
+<img width="2280" height="1080" alt="image" src="https://github.com/user-attachments/assets/8f4abebc-0325-4b62-8fbf-57454f59fb5b" />
+<img src="https://github.com/user-attachments/assets/3f874256-6cfc-4c43-baf0-3384ba615a21" alt="vChatの設定画面1" width="25%">
+<img src="https://github.com/user-attachments/assets/8f4abebc-0325-4b62-8fbf-57454f59fb5b" alt="vChatの設定画面2" width="25%">
 ---
 
 ## 独立アプリケーション
