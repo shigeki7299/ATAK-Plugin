@@ -67,7 +67,7 @@
 - 現在地が出発地点から離れている場合、出発地点までの案内後に目的地へ誘導
 - ルート一覧に到着予想時刻を表示
 - 道路ネットワークデータの保存先はアプリ内HELPを参照。データの追加に対応
-<img src="https://github.com/user-attachments/assets/8513dcb2-4388-4e22-9d4a-049baf78485e" alt="Navigationの画面" width="25%">
+<img src="https://github.com/user-attachments/assets/8513dcb2-4388-4e22-9d4a-049baf78485e" alt="Navigationの画面" width="40%">
 
 ### Tactical Suite — 活動支援機能集
 
@@ -97,11 +97,9 @@
 - レーザー距離計などで測定した距離を入力し、推定精度の改善を支援
 
 推定結果はカメラ姿勢、端末の位置・向き、標高データ、距離測定誤差などの影響を受けます。測量機器の代替や、精度保証された測位手段として扱わないでください。
+<img src="https://github.com/user-attachments/assets/0bc72a93-b014-4b21-961b-76725fb4d57c" alt="SurveyCameraの画面1" width="40%">
 
-![SurveyCameraの画面1](https://github.com/user-attachments/assets/0bc72a93-b014-4b21-961b-76725fb4d57c)
-
-![SurveyCameraの画面2](https://github.com/user-attachments/assets/1a1a0ab6-86d7-44be-9493-67686f0d9cf5)
-
+<img src="https://github.com/user-attachments/assets/1a1a0ab6-86d7-44be-9493-67686f0d9cf5" alt="SurveyCameraの画面2" width="40%">
 ---
 
 ## 火力支援プラグイン
@@ -117,14 +115,14 @@
 - CAS 9-Line形式の要求・受領情報の取り扱い
 
 計算機能の一部は開発・検証中です。表示結果や計算値を実際の任務判断に利用する前に、適用する教範・規格・入力条件との整合性を専門家が検証する必要があります。
+<img src="https://github.com/user-attachments/assets/4bfe29de-527b-42ff-911c-873fe7ca6cee" alt="FO Toolの画面1" width="40%">
 
-![FO Toolの画面1](https://github.com/user-attachments/assets/4bfe29de-527b-42ff-911c-873fe7ca6cee)
+<img src="https://github.com/user-attachments/assets/5258e98a-2dc7-4f67-8a49-34e9871a96d4" alt="FO Toolの画面2" width="40%">
 
-![FO Toolの画面2](https://github.com/user-attachments/assets/5258e98a-2dc7-4f67-8a49-34e9871a96d4)
+<img src="https://github.com/user-attachments/assets/76291eb5-0c12-453a-9375-9d179903dd82" alt="FO Toolの画面3" width="40%">
 
-![FO Toolの画面3](https://github.com/user-attachments/assets/76291eb5-0c12-453a-9375-9d179903dd82)
+<img src="https://github.com/user-attachments/assets/25cf9d6a-483d-4f46-887d-a90b56f00824" alt="FO Toolの画面4" width="40%">
 
-![FO Toolの画面4](https://github.com/user-attachments/assets/25cf9d6a-483d-4f46-887d-a90b56f00824)
 
 ---
 
@@ -138,8 +136,7 @@
 - AGL（対地高度）とMGL（平均海面等を基準とする高度表現）の切り替えに対応する表示機能
 
 気象データの利用可能範囲、時間分解能、標高の基準、ネットワーク接続条件はデータ提供元と実装に依存します。ネットワーク接続がない場合、外部データは取得できません。
-
-![WindsAloftの画面](https://github.com/user-attachments/assets/0dc9b172-c3f7-4612-956c-bfd569840e77)
+<img src="https://github.com/user-attachments/assets/0dc9b172-c3f7-4612-956c-bfd569840e77" alt="WindsAloftの画面" width="40%">
 
 ---
 
@@ -153,8 +150,7 @@
 - 将来のネットワークアダプター追加を考慮した設計
 
 現状の画面は試験用で、変更される可能性があります。接続距離・同時接続数・端末互換性は環境に左右されます。暗号化方式やセキュリティ機能については、実装・設定・検証結果を確認したうえで利用してください。
-
-![MANETの画面](https://github.com/user-attachments/assets/c1c7d20b-6fa3-4ae0-abf0-7d7a4e048e6e)
+<img src="https://github.com/user-attachments/assets/c1c7d20b-6fa3-4ae0-abf0-7d7a4e048e6e" alt="MANETの画面" width="40%">
 
 ### RF Design Studio / RFSimulator — 電波伝搬解析
 
@@ -164,12 +160,11 @@
 - 評定図などの可視化
 
 結果は地形データ、アンテナ条件、送信出力、伝搬モデルなどの入力条件に依存します。設計・評価時には前提条件を確認してください。
+<img src="https://github.com/user-attachments/assets/13c5e9eb-aca9-458d-9a4f-5412f8559fb3" alt="RF Design Studio：全域解析" width="40%">
 
-![RF Design Studio：全域解析](https://github.com/user-attachments/assets/13c5e9eb-aca9-458d-9a4f-5412f8559fb3)
+<img src="https://github.com/user-attachments/assets/33b4e214-f9a1-4605-9f2a-966d9e34d06b" alt="RF Design Studio：対向通信" width="40%">
 
-![RF Design Studio：対向通信](https://github.com/user-attachments/assets/33b4e214-f9a1-4605-9f2a-966d9e34d06b)
-
-![RF Design Studio：電界図](https://github.com/user-attachments/assets/b378b7e5-1cb6-4296-a5b9-ae7f360ea714)
+<img src="https://github.com/user-attachments/assets/b378b7e5-1cb6-4296-a5b9-ae7f360ea714" alt="RF Design Studio：電界図" width="40%">
 
 ### PushToTalk2 — 複数通信系に対応するPTT
 
@@ -178,10 +173,9 @@
 - 音声デバイス制御を実装し、対応するボタンによるPTT操作を検討
 
 通信品質、遅延、音質、圧縮率、端末互換性はネットワークと機器構成に依存します。実運用前に測定・確認してください。
+<img src="https://github.com/user-attachments/assets/830c98b2-c0ea-4f81-9463-e3b91910480c" alt="PushToTalk2の画面" width="35%">
 
-![PushToTalk2の画面](https://github.com/user-attachments/assets/830c98b2-c0ea-4f81-9463-e3b91910480c)
-
-![PushToTalk2の設定画面](https://github.com/user-attachments/assets/aa5a9d18-acfb-4144-9678-2b06e57f151f)
+<img src="https://github.com/user-attachments/assets/aa5a9d18-acfb-4144-9678-2b06e57f151f" alt="PushToTalk2の設定画面" width="35%">
 
 ---
 
@@ -190,8 +184,8 @@
 ### MANET Gateway
 
 ローカル環境のデータを外部ネットワークへ中継するための関連アプリです。ATAK関連データやPushToTalkの情報共有との連携を検討しています。
+**<img src="https://github.com/user-attachments/assets/e31e1554-895a-4124-9499-cb0ed43dd5d0" alt="MANET Gatewayの画面" width="35%">**
 
-![MANET Gatewayの画面](https://github.com/user-attachments/assets/e31e1554-895a-4124-9499-cb0ed43dd5d0)
 
 ### QGroundControl連携
 
@@ -204,7 +198,7 @@ QGroundControlを利用した無人機の地上管制、飛行計画、3D表示�
 
 実際に管理できる対象や位置精度は、端末・設置場所・測位方式・通信条件に依存します。
 
-![TAK_BEACONの画面](https://github.com/user-attachments/assets/79cabaf5-62f3-46bf-b2fc-b7cff710c4af)
+<img src="https://github.com/user-attachments/assets/79cabaf5-62f3-46bf-b2fc-b7cff710c4af" alt="TAK_BEACONの画面" width="25%">
 
 ---
 
