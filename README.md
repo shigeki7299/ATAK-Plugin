@@ -38,6 +38,7 @@
 | 通信 | **MANET** | Wi-Fi Awareを利用した端末間ネットワーク構成の検証 | 試験中 |
 | 通信 | **RF Design Studio** | 電波伝搬・通信範囲の解析 | 試作 |
 | 通信 | **PushToTalk2** | 複数通信系を扱うPTTアプリ | 試作 |
+| 通信 | **vChat** | テキスト・画像・既読者確認に対応するチャットアプリ | サーバー運用型 |
 | 支援ツール | **TAK_BEACON** | 端末の位置情報送信 | 試作 |
 | 独立アプリ | **MANET Gateway** | ローカルデータと外部ネットワーク間の中継 | 試作 |
 | 独立アプリ | **QGroundControl連携** | 無人機の地上管制・ATAK連携の検討 | 関連プロジェクト |
@@ -179,6 +180,22 @@
 <img src="https://github.com/user-attachments/assets/830c98b2-c0ea-4f81-9463-e3b91910480c" alt="PushToTalk2の画面" width="35%">
 
 <img src="https://github.com/user-attachments/assets/aa5a9d18-acfb-4144-9678-2b06e57f151f" alt="PushToTalk2の設定画面" width="35%">
+
+---
+### vChat — テキスト・画像に対応したチャットアプリ
+
+LINEやSignalのような操作感を目指したチャットアプリです。
+
+- テキストメッセージの送受信に対応
+- 画像などのファイル共有に対応
+- メッセージを誰が既読にしたか確認可能
+- サーバーが必要ですが、オンプレミス環境に構築して運用可能
+- インターネット上の外部サービスに依存しない閉域ネットワークでの運用を検討可能
+
+vChatの利用にはサーバー環境が必要です。実際に利用できる機能、対応ファイル形式、既読情報の扱い、同時接続数は、サーバー構成とアプリの実装・バージョンに依存します。
+<img width="30%" alt="screem_shot2" src="https://github.com/user-attachments/assets/aa2dc874-3155-491d-9edf-4cc92ddbb32e" />
+
+<img width="30%" alt="screem_shot" src="https://github.com/user-attachments/assets/2bb7fd84-b1c5-40da-a479-6c0bc28a40d3" />
 
 ---
 
