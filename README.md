@@ -83,7 +83,8 @@
 
 ### Monochrome — モノクロ表示
 
-夜間の端末利用を想定し、画面表示をモノクロ化するためのアプリです。利用端末、Androidの仕様、他アプリへの適用範囲などに制約があるため、実際の利用環境で確認してください。
+夜間の端末利用を想定し、画面表示をモノクロ化するためのアプリです。利用端末、Androidの仕様、他アプリへの適用範囲などに制約があるため、実際の利用環境で確認してください。<br>
+<img src=""https://github.com/user-attachments/assets/77127161-907c-423c-bab2-e5e64bb3ac85" alt="Monochrome画面" width="40%"><br>
 
 ---
 
@@ -97,7 +98,6 @@
 - レーザー距離計などで測定した距離を入力し、推定精度の改善を支援
 推定結果はカメラ姿勢、端末の位置・向き、標高データ、距離測定誤差などの影響を受けます。測量機器の代替や、精度保証された測位手段として扱わないでください。
 <br>
-
 <img src="https://github.com/user-attachments/assets/7c8d2503-549c-469c-846a-0e5722c1ec3a" alt="SurveyCameraの画面１" width="40%"><br>
 <img src="https://github.com/user-attachments/assets/1a1a0ab6-86d7-44be-9493-67686f0d9cf5" alt="SurveyCameraの画面2" width="40%"><br>
 ---
