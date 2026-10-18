@@ -16,8 +16,8 @@
 
 このリポジトリでは、ATAK上で動作するプラグインや、ATAKと連携するAndroidアプリケーションを紹介しています。スマートフォン上での利用を想定し、現場で必要になる地図表示、ナビゲーション、情報取得、通信などの機能を試作・開発しています。
 
-- **対応環境:** ATAK-CIVを中心に開発・検証
-- **試作端末:** Galaxy Note、Galaxy S21など
+- **対応環境:** ATAKを中心に開発・検証
+- **試作端末:** Galaxy Note、Galaxy S23など
 - **開発状況:** 機能ごとに開発段階・公開状況が異なります
 - **公開方針:** 一部のプラグインは非公開です。詳細は作者までお問い合わせください
 
@@ -32,13 +32,12 @@
 | 活動支援 | **Navigation** | 車両・徒歩ルート、日本語案内、到着予想時刻 | リリース情報あり |
 | 活動支援 | **Tactical Suite** | PDR、音声入力、生体情報などの支援機能 | 開発中 |
 | 活動支援 | **Monochrome** | 夜間利用を想定したモノクロ表示 | 試作 |
-| カメラ・位置 | **Targeting Camera / SurveyCamera** | カメラ画像と地形情報を用いた地点座標の推定 | リリース情報あり |
+| カメラ・位置 | **Targeting Camera** | カメラ画像と地形情報を用いた地点座標の推定 | リリース情報あり |
 | 火力支援 | **FO Tool** | 目標・要求・任務情報の管理支援 | リリース情報あり |
 | 情報支援 | **WindsAloft** | 外部気象データの取得・表示 | 試作 |
 | 通信 | **MANET** | Wi-Fi Awareを利用した端末間ネットワーク構成の検証 | 試験中 |
-| 通信 | **RF Design Studio / RFSimulator** | 電波伝搬・通信範囲の解析 | 試作 |
+| 通信 | **RF Design Studio** | 電波伝搬・通信範囲の解析 | 試作 |
 | 通信 | **PushToTalk2** | 複数通信系を扱うPTTアプリ | 試作 |
-| 通信 | **vChat** | テキスト・画像・既読者確認に対応するチャットアプリ | サーバー運用型 |
 | 支援ツール | **TAK_BEACON** | 端末の位置情報送信 | 試作 |
 | 独立アプリ | **MANET Gateway** | ローカルデータと外部ネットワーク間の中継 | 試作 |
 | 独立アプリ | **QGroundControl連携** | 無人機の地上管制・ATAK連携の検討 | 関連プロジェクト |
@@ -55,8 +54,8 @@
 - 表示をタップして角度表記を度（°）、mil、radに切り替え
 - AGL／MGLの高度表示切り替え
 - 基準標高を手動設定した場合、気圧センサーを利用した高度表示をサポート
+<img src="https://github.com/user-attachments/assets/6c33b012-edb7-4d05-9b32-5d09add607e6" alt="Compass2の画面" width="40%">
 
-<img src="https://github.com/user-attachments/assets/6c33b012-edb7-4d05-9b32-5d09add607e6" alt="Compass2の画面" width="25%">
 
 ### Navigation — オフライン利用を想定したナビゲーション
 
@@ -68,8 +67,7 @@
 - 現在地が出発地点から離れている場合、出発地点までの案内後に目的地へ誘導
 - ルート一覧に到着予想時刻を表示
 - 道路ネットワークデータの保存先はアプリ内HELPを参照。データの追加に対応
-
-<img src="https://github.com/user-attachments/assets/8513dcb2-4388-4e22-9d4a-049baf78485e" alt="Navigationの画面" width="25%">
+<img src="https://github.com/user-attachments/assets/8513dcb2-4388-4e22-9d4a-049baf78485e" alt="Navigationの画面" width="40%">
 
 ### Tactical Suite — 活動支援機能集
 
@@ -85,25 +83,23 @@
 
 ### Monochrome — モノクロ表示
 
-夜間の端末利用を想定し、画面表示をモノクロ化するためのアプリです。利用端末、Androidの仕様、他アプリへの適用範囲などに制約があるため、実際の利用環境で確認してください。
+夜間の端末利用を想定し、画面表示をモノクロ化するためのアプリです。利用端末、Androidの仕様、他アプリへの適用範囲などに制約があるため、実際の利用環境で確認してください。<br>
+<img src="https://github.com/user-attachments/assets/77127161-907c-423c-bab2-e5e64bb3ac85" alt="Monochrome画面" width="40%"><br>
 
 ---
 
 ## カメラ・位置情報プラグイン
 
-### Targeting Camera / SurveyCamera — カメラによる地点座標推定
+### Targeting Camera — カメラによる地点座標推定
 
 **リリース情報：2026-10-12**
 
 - カメラで捉えた対象とATAKの標高データを利用して地点座標を推定
 - レーザー距離計などで測定した距離を入力し、推定精度の改善を支援
-
 推定結果はカメラ姿勢、端末の位置・向き、標高データ、距離測定誤差などの影響を受けます。測量機器の代替や、精度保証された測位手段として扱わないでください。
-
-<img src="https://github.com/user-attachments/assets/0bc72a93-b014-4b21-961b-76725fb4d57c" alt="SurveyCameraの画面1" width="25%">
-
-<img src="https://github.com/user-attachments/assets/1a1a0ab6-86d7-44be-9493-67686f0d9cf5" alt="SurveyCameraの画面2" width="25%">
-
+<br>
+<img src="https://github.com/user-attachments/assets/7c8d2503-549c-469c-846a-0e5722c1ec3a" alt="SurveyCameraの画面１" width="40%"><br>
+<img src="https://github.com/user-attachments/assets/1a1a0ab6-86d7-44be-9493-67686f0d9cf5" alt="SurveyCameraの画面2" width="40%"><br>
 ---
 
 ## 火力支援プラグイン
@@ -118,15 +114,15 @@
 - 火力統制に関するオーバーレイ表示・任務情報の作成支援
 - CAS 9-Line形式の要求・受領情報の取り扱い
 
-計算機能の一部は開発・検証中です。表示結果や計算値を実際の任務判断に利用する前に、適用する教範・規格・入力条件との整合性を専門家が検証する必要があります。
+計算機能の一部は開発・検証中です。表示結果や計算値を実際の任務判断に利用する前に、適用する教範・規格・入力条件との整合性を専門家が検証する必要があります。<br>
+<img src="https://github.com/user-attachments/assets/4bfe29de-527b-42ff-911c-873fe7ca6cee" alt="FO Toolの画面1" width="40%"><br>
 
-<img src="https://github.com/user-attachments/assets/4bfe29de-527b-42ff-911c-873fe7ca6cee" alt="FO Toolの画面1" width="25%">
+<img src="https://github.com/user-attachments/assets/5258e98a-2dc7-4f67-8a49-34e9871a96d4" alt="FO Toolの画面2" width="40%"><br>
 
-<img src="https://github.com/user-attachments/assets/5258e98a-2dc7-4f67-8a49-34e9871a96d4" alt="FO Toolの画面2" width="25%">
+<img src="https://github.com/user-attachments/assets/76291eb5-0c12-453a-9375-9d179903dd82" alt="FO Toolの画面3" width="40%"><br>
 
-<img src="https://github.com/user-attachments/assets/76291eb5-0c12-453a-9375-9d179903dd82" alt="FO Toolの画面3" width="25%">
+<img src="https://github.com/user-attachments/assets/25cf9d6a-483d-4f46-887d-a90b56f00824" alt="FO Toolの画面4" width="40%"><br>
 
-<img src="https://github.com/user-attachments/assets/25cf9d6a-483d-4f46-887d-a90b56f00824" alt="FO Toolの画面4" width="25%">
 
 ---
 
@@ -140,8 +136,8 @@
 - AGL（対地高度）とMGL（平均海面等を基準とする高度表現）の切り替えに対応する表示機能
 
 気象データの利用可能範囲、時間分解能、標高の基準、ネットワーク接続条件はデータ提供元と実装に依存します。ネットワーク接続がない場合、外部データは取得できません。
-
-<img src="https://github.com/user-attachments/assets/0dc9b172-c3f7-4612-956c-bfd569840e77" alt="WindsAloftの画面" width="25%">
+<br>
+<img src="https://github.com/user-attachments/assets/0dc9b172-c3f7-4612-956c-bfd569840e77" alt="WindsAloftの画面" width="40%"><br>
 
 ---
 
@@ -155,10 +151,10 @@
 - 将来のネットワークアダプター追加を考慮した設計
 
 現状の画面は試験用で、変更される可能性があります。接続距離・同時接続数・端末互換性は環境に左右されます。暗号化方式やセキュリティ機能については、実装・設定・検証結果を確認したうえで利用してください。
+<br>
+<img src="https://github.com/user-attachments/assets/c1c7d20b-6fa3-4ae0-abf0-7d7a4e048e6e" alt="MANETの画面" width="40%">
 
-<img src="https://github.com/user-attachments/assets/c1c7d20b-6fa3-4ae0-abf0-7d7a4e048e6e" alt="MANETの画面" width="25%">
-
-### RF Design Studio / RFSimulator — 電波伝搬解析
+### RF Design Studio — 電波伝搬解析
 
 - 電界強度の分布表示
 - 通信可能範囲の解析
@@ -166,12 +162,12 @@
 - 評定図などの可視化
 
 結果は地形データ、アンテナ条件、送信出力、伝搬モデルなどの入力条件に依存します。設計・評価時には前提条件を確認してください。
+<br>
+<img src="https://github.com/user-attachments/assets/13c5e9eb-aca9-458d-9a4f-5412f8559fb3" alt="RF Design Studio：全域解析" width="40%"><br>
 
-<img src="https://github.com/user-attachments/assets/13c5e9eb-aca9-458d-9a4f-5412f8559fb3" alt="RF Design Studio：全域解析" width="25%">
+<img src="https://github.com/user-attachments/assets/33b4e214-f9a1-4605-9f2a-966d9e34d06b" alt="RF Design Studio：対向通信" width="40%"><br>
 
-<img src="https://github.com/user-attachments/assets/33b4e214-f9a1-4605-9f2a-966d9e34d06b" alt="RF Design Studio：対向通信" width="25%">
-
-<img src="https://github.com/user-attachments/assets/b378b7e5-1cb6-4296-a5b9-ae7f360ea714" alt="RF Design Studio：電界図" width="25%">
+<img src="https://github.com/user-attachments/assets/b378b7e5-1cb6-4296-a5b9-ae7f360ea714" alt="RF Design Studio：電界図" width="40%"><br>
 
 ### PushToTalk2 — 複数通信系に対応するPTT
 
@@ -180,24 +176,10 @@
 - 音声デバイス制御を実装し、対応するボタンによるPTT操作を検討
 
 通信品質、遅延、音質、圧縮率、端末互換性はネットワークと機器構成に依存します。実運用前に測定・確認してください。
+<img src="https://github.com/user-attachments/assets/830c98b2-c0ea-4f81-9463-e3b91910480c" alt="PushToTalk2の画面" width="35%">
 
-<img src="https://github.com/user-attachments/assets/830c98b2-c0ea-4f81-9463-e3b91910480c" alt="PushToTalk2の画面" width="25%">
+<img src="https://github.com/user-attachments/assets/aa5a9d18-acfb-4144-9678-2b06e57f151f" alt="PushToTalk2の設定画面" width="35%">
 
-<img src="https://github.com/user-attachments/assets/aa5a9d18-acfb-4144-9678-2b06e57f151f" alt="PushToTalk2の設定画面" width="25%">
-
-### vChat — テキスト・画像に対応したチャットアプリ
-
-LINEやSignalのような操作感を目指したチャットアプリです。
-
-- テキストメッセージの送受信に対応
-- 画像などのファイル共有に対応
-- メッセージを誰が既読にしたか確認可能
-- サーバーが必要ですが、オンプレミス環境に構築して運用可能
-- インターネット上の外部サービスに依存しない閉域ネットワークでの運用を検討可能
-
-vChatの利用にはサーバー環境が必要です。実際に利用できる機能、対応ファイル形式、既読情報の扱い、同時接続数は、サーバー構成とアプリの実装・バージョンに依存します。
-<img width="25%" alt="screem_shot2" src="https://github.com/user-attachments/assets/6a4e3ec8-e9a1-4f3f-8e5b-d0f1c45286a4"  />
-<img width="25%" alt="screem_shot" src="https://github.com/user-attachments/assets/64f35594-e434-4351-8c52-1d02f4eabfb4" />
 ---
 
 ## 独立アプリケーション
@@ -205,8 +187,9 @@ vChatの利用にはサーバー環境が必要です。実際に利用できる
 ### MANET Gateway
 
 ローカル環境のデータを外部ネットワークへ中継するための関連アプリです。ATAK関連データやPushToTalkの情報共有との連携を検討しています。
+<br>
+**<img src="https://github.com/user-attachments/assets/e31e1554-895a-4124-9499-cb0ed43dd5d0" alt="MANET Gatewayの画面" width="35%">**
 
-<img src="https://github.com/user-attachments/assets/e31e1554-895a-4124-9499-cb0ed43dd5d0" alt="MANET Gatewayの画面" width="25%">
 
 ### QGroundControl連携
 
