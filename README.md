@@ -54,7 +54,7 @@
 - 表示をタップして角度表記を度（°）、mil、radに切り替え
 - AGL／MGLの高度表示切り替え
 - 基準標高を手動設定した場合、気圧センサーを利用した高度表示をサポート
-<img src="https://github.com/user-attachments/assets/6c33b012-edb7-4d05-9b32-5d09add607e6" alt="Compass2の画面" width="25%">
+<img src="https://github.com/user-attachments/assets/6c33b012-edb7-4d05-9b32-5d09add607e6" alt="Compass2の画面" width="40%">
 
 
 ### Navigation — オフライン利用を想定したナビゲーション
