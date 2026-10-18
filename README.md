@@ -137,7 +137,8 @@
 - AGL（対地高度）とMGL（平均海面等を基準とする高度表現）の切り替えに対応する表示機能
 
 気象データの利用可能範囲、時間分解能、標高の基準、ネットワーク接続条件はデータ提供元と実装に依存します。ネットワーク接続がない場合、外部データは取得できません。
-<img src="https://github.com/user-attachments/assets/0dc9b172-c3f7-4612-956c-bfd569840e77" alt="WindsAloftの画面" width="40%">
+<br>
+<img src="https://github.com/user-attachments/assets/0dc9b172-c3f7-4612-956c-bfd569840e77" alt="WindsAloftの画面" width="40%"><br>
 
 ---
 
@@ -151,6 +152,7 @@
 - 将来のネットワークアダプター追加を考慮した設計
 
 現状の画面は試験用で、変更される可能性があります。接続距離・同時接続数・端末互換性は環境に左右されます。暗号化方式やセキュリティ機能については、実装・設定・検証結果を確認したうえで利用してください。
+<br>
 <img src="https://github.com/user-attachments/assets/c1c7d20b-6fa3-4ae0-abf0-7d7a4e048e6e" alt="MANETの画面" width="40%">
 
 ### RF Design Studio / RFSimulator — 電波伝搬解析
@@ -186,6 +188,7 @@
 ### MANET Gateway
 
 ローカル環境のデータを外部ネットワークへ中継するための関連アプリです。ATAK関連データやPushToTalkの情報共有との連携を検討しています。
+<br>
 **<img src="https://github.com/user-attachments/assets/e31e1554-895a-4124-9499-cb0ed43dd5d0" alt="MANET Gatewayの画面" width="35%">**
 
 
